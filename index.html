@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影迷觀影雷達與追蹤器 | 奧斯卡、坎城、威尼斯、柏林四大殿堂得獎清單</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theater-glow"></div>
+    
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand">
+                <i data-lucide="film" class="brand-icon"></i>
+                <div class="brand-text">
+                    <h1>影迷觀影雷達</h1>
+                    <p>奧斯卡、坎城、威尼斯、柏林四大殿堂得獎清單追蹤</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="btn-roulette" class="btn btn-secondary">
+                    <i data-lucide="dices"></i> 今晚看什麼？
+                </button>
+                <button id="btn-share" class="btn btn-primary">
+                    <i data-lucide="share-2"></i> 生成分享卡片
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- 儀表板：觀影進度 -->
+        <section class="dashboard-section">
+            <div class="card glass progress-card">
+                <div class="total-progress-container">
+                    <div class="circular-progress" id="total-circular">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring-bg" stroke="#1f2833" stroke-width="8" fill="transparent" r="52" cx="60" cy="60" />
+                            <circle class="progress-ring-bar" id="total-ring" stroke="url(#goldGradient)" stroke-width="8" stroke-dasharray="326.7" stroke-dashoffset="326.7" stroke-linecap="round" fill="transparent" r="52" cx="60" cy="60" />
+                            <defs>
+                                <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#c5a059" />
+                                    <stop offset="100%" stop-color="#f3d18c" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="progress-value">
+                            <span id="total-percent">0%</span>
+                            <span class="progress-count" id="total-count">0/0</span>
+                        </div>
+                    </div>
+                    <div class="progress-text">
+                        <h3>觀影總進度</h3>
+                        <p>解鎖影史四大殿堂得獎影片的拼圖，您已超越了全球 <span id="user-tier">0%</span> 的影迷！</p>
+                    </div>
+                </div>
+
+                <div class="festival-breakdown">
+                    <!-- 奧斯卡 -->
+                    <div class="fest-progress-item oscar-item">
+                        <div class="fest-meta">
+                            <span class="fest-badge oscar"><i data-lucide="award"></i> 奧斯卡最佳影片</span>
+                            <span class="fest-stats" id="stats-oscar">0/0 (0%)</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="bar-oscar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <!-- 坎城 -->
+                    <div class="fest-progress-item cannes-item">
+                        <div class="fest-meta">
+                            <span class="fest-badge cannes"><i data-lucide="palmtree"></i> 坎城金棕櫚獎</span>
+                            <span class="fest-stats" id="stats-cannes">0/0 (0%)</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="bar-cannes" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <!-- 威尼斯 -->
+                    <div class="fest-progress-item venice-item">
+                        <div class="fest-meta">
+                            <span class="fest-badge venice"><i data-lucide="crown"></i> 威尼斯金獅獎</span>
+                            <span class="fest-stats" id="stats-venice">0/0 (0%)</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="bar-venice" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <!-- 柏林 -->
+                    <div class="fest-progress-item berlin-item">
+                        <div class="fest-meta">
+                            <span class="fest-badge berlin"><i data-lucide="gem"></i> 柏林金熊獎</span>
+                            <span class="fest-stats" id="stats-berlin">0/0 (0%)</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="bar-berlin" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 篩選與過濾工具列 -->
+        <section class="filters-section">
+            <div class="filters-container glass">
+                <div class="search-box">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="search-input" placeholder="搜尋片名、導演、國家...">
+                </div>
+                <div class="filter-dropdowns">
+                    <div class="select-wrapper">
+                        <select id="filter-decade">
+                            <option value="all">所有年代</option>
+                            <option value="2020s">2020 年代</option>
+                            <option value="2010s">2010 年代</option>
+                            <option value="2000s">2000 年代</option>
+                            <option value="1990s">1990 年代</option>
+                            <option value="1980s">1980 年代</option>
+                            <option value="1970s">1970 年代</option>
+                            <option value="1960s">1960 年代</option>
+                            <option value="earlier">1950 年代以前</option>
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <select id="filter-country">
+                            <option value="all">所有國家</option>
+                            <option value="us">美國</option>
+                            <option value="fr">法國</option>
+                            <option value="it">義大利</option>
+                            <option value="uk">英國</option>
+                            <option value="jp">日本</option>
+                            <option value="kr">韓國</option>
+                            <option value="tw">台灣</option>
+                            <option value="hk">香港</option>
+                            <option value="other">其他國家</option>
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <select id="filter-status">
+                            <option value="all">所有狀態</option>
+                            <option value="unwatched">未觀看</option>
+                            <option value="watched">已觀看</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 影展切換 Tabs -->
+        <section class="tabs-section">
+            <div class="tabs-container">
+                <button class="tab-btn active" data-tab="all">全部電影</button>
+                <button class="tab-btn" data-tab="oscar"><i data-lucide="award"></i> 奧斯卡</button>
+                <button class="tab-btn" data-tab="cannes"><i data-lucide="palmtree"></i> 坎城影展</button>
+                <button class="tab-btn" data-tab="venice"><i data-lucide="crown"></i> 威尼斯影展</button>
+                <button class="tab-btn" data-tab="berlin"><i data-lucide="gem"></i> 柏林影展</button>
+            </div>
+        </section>
+
+        <!-- 電影列表 -->
+        <section class="movies-section">
+            <div class="movies-grid" id="movies-grid">
+                <!-- 動態載入電影卡片 -->
+            </div>
+            <div id="no-results" class="no-results hidden">
+                <i data-lucide="search-code"></i>
+                <p>找不到符合條件的電影，換個篩選條件試試看吧！</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 彈窗：今晚看什麼？ (Roulette) -->
+    <div id="modal-roulette" class="modal">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h2>今晚看什麼？得獎電影推薦</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="roulette-screen">
+                    <div class="roulette-wheel" id="roulette-wheel">
+                        <span class="wheel-text">準備抽選...</span>
+                    </div>
+                    <div class="roulette-result hidden" id="roulette-result">
+                        <!-- 隨機電影結果卡片 -->
+                    </div>
+                </div>
+                <div class="roulette-actions">
+                    <button id="btn-spin" class="btn btn-primary btn-large"><i data-lucide="dices"></i> 開始隨機抽選</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 彈窗：分享卡片產生器 (Share Card) -->
+    <div id="modal-share" class="modal">
+        <div class="modal-content glass share-modal-content">
+            <div class="modal-header">
+                <h2>生成影迷榮譽卡片</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="share-setup">
+                    <div class="input-group">
+                        <label for="share-username">請輸入您的影迷暱稱：</label>
+                        <input type="text" id="share-username" value="社團資深影迷" placeholder="例如：奧斯卡小達人">
+                    </div>
+                </div>
+                <div class="card-preview-container">
+                    <canvas id="share-canvas" width="600" height="400" class="share-canvas"></canvas>
+                </div>
+                <div class="share-actions">
+                    <button id="btn-download-card" class="btn btn-primary"><i data-lucide="download"></i> 下載榮譽卡片</button>
+                    <p class="share-tip"><i data-lucide="info"></i> 點擊下載圖片後，即可分享到【奧斯卡坎城柏林威尼斯都可以】臉書社團蓋大樓！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 彈窗：電影詳情 (Movie Detail) -->
+    <div id="modal-detail" class="modal">
+        <div class="modal-content glass detail-modal-content">
+            <div class="modal-header">
+                <h2 id="detail-title-cn">電影名稱</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="detail-container">
+                    <div class="detail-poster-fallback">
+                        <i data-lucide="film" class="fallback-icon"></i>
+                    </div>
+                    <div class="detail-info">
+                        <p class="detail-title-en" id="detail-title-en">English Title</p>
+                        <div class="detail-meta">
+                            <span class="detail-badge" id="detail-festival">影展</span>
+                            <span class="detail-year" id="detail-year">2026</span>
+                        </div>
+                        <div class="detail-grid">
+                            <div class="detail-label">導演</div>
+                            <div class="detail-val" id="detail-director">導演姓名</div>
+                            <div class="detail-label">國家</div>
+                            <div class="detail-val" id="detail-country">製片國家</div>
+                        </div>
+                        <div class="detail-links">
+                            <a id="link-imdb" href="#" target="_blank" class="btn-link"><i data-lucide="external-link"></i> IMDb 搜尋</a>
+                            <a id="link-letterboxd" href="#" target="_blank" class="btn-link"><i data-lucide="external-link"></i> Letterboxd 搜尋</a>
+                            <a id="link-youtube" href="#" target="_blank" class="btn-link"><i data-lucide="youtube"></i> 預告片搜尋</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p>© 2026 影迷觀影雷達 & 追蹤器. Made for 奧斯卡坎城柏林威尼斯都可以 Facebook Group.</p>
+    </footer>
+
+    <!-- Movie Data File -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
