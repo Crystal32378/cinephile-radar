@@ -1,0 +1,10 @@
+award,ceremony_year,film_year,original_title,english_title,taiwan_title,hong_kong_title,mainland_china_title,title_notes,confidence,needs_human_review
+Oscar Best Picture,2020 / 92nd,2019,기생충,Parasite,寄生上流,上流寄生族,寄生虫,三地譯名不同；陸直譯，台港意譯,high,no
+Oscar Best Picture,2021 / 93rd,2020,Nomadland,Nomadland,游牧人生,浪跡天地,无依之地,TW regional source missing; CN second source missing,medium,yes
+Oscar Best Picture,2022 / 94th,2021,CODA,CODA,樂動心旋律,心之旋律,健听女孩,HK regional source missing; CN title is streaming not theatrical,medium,yes
+Oscar Best Picture,2023 / 95th,2022,Everything Everywhere All at Once,Everything Everywhere All at Once,媽的多重宇宙,奇異女俠玩救宇宙,瞬息全宇宙,新加坡另譯「天馬行空」; 台譯「媽的」雙關,high,no
+Oscar Best Picture,2019 / 91st,2018,Green Book,Green Book,幸福綠皮書,綠簿旅友,绿皮书,台/星/馬共用「幸福綠皮書」,high,no
+Oscar Best Picture,2018 / 90th,2017,The Shape of Water,The Shape of Water,水底情深,忘形水,水形物语,TW/HK regional source missing; CN theatrical confirmed,medium,yes
+Oscar Best Picture,2024 / 96th,2023,Oppenheimer,Oppenheimer,奧本海默,奧本海默,奥本海默,三地統一; 台「奧vs歐」爭議已解; CN theatrical confirmed,high,no
+Oscar Best Picture,2025 / 97th,2024,Anora,Anora,艾諾拉,阿諾拉,阿诺拉,台「艾」vs 港陸「阿」同音異譯; 每地單源,low,yes
+Oscar Best Picture,2026 / 98th,2025,One Battle After Another,One Battle After Another,TBD,TBD,TBD,Sources not mature; revisit later,low,yes
