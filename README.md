@@ -1,125 +1,42 @@
-# Cinephile Radar & Tracker
+# Antigravity Data Intake - 2026-07-07
 
-影迷觀影雷達與追蹤器。
-
-一個給影迷用的靜態網頁小工具，用來追蹤奧斯卡、坎城、威尼斯、柏林四大影展／獎項得獎片單的觀影進度，也可以隨機推薦「今晚看什麼」。
-
-V0 demo for the Facebook group 「奧斯卡坎城柏林威尼斯都可以」.
-
-## Live Demo
-
-GitHub Pages:
-
-```text
-https://crystal32378.github.io/cinephile-radar/
-```
-
-Earlier Netlify Drop demo:
-
-```text
-https://majestic-toffee-9733c4.netlify.app/
-```
-
-## Current Status
-
-- Prototype is live on GitHub Pages.
-- Frontend is static HTML/CSS/JavaScript.
-- Watch progress is stored locally in the browser with `localStorage`.
-- The current dataset already includes 300+ films.
-- The film list was initially collected with help from Antigravity.
-- Traditional Chinese title handling is still under review.
-- ZCode is being used to help prepare a Taiwan / Hong Kong / China title verification checklist.
-- Current status: usable V0 demo, not yet a final reference database.
+This folder preserves Antigravity's first-pass data collection for Cinephile Radar.
 
 ## Files
 
-- `index.html`: Main page structure.
-- `style.css`: Visual design and responsive layout.
-- `app.js`: Interaction logic, filters, roulette, progress tracking, share card.
-- `data.js`: Static film data used by the demo.
+- `cinephile_awards_source_table.csv`: first-pass source table for Oscar Best Picture, Cannes top prize, Venice top prize, and Berlin top prize winners.
+- `early_title_verification_needed.csv`: early-film Traditional Chinese title verification queue.
+- `DATA_GAPS_REPORT.md`: Antigravity's summary of data completeness, missing title candidates, and metadata gaps.
 
-## What It Does
+## Work Completed
 
-- Tracks viewing progress across major award/festival lists.
-- Stores progress locally in the browser.
-- Provides filtering and discovery flows.
-- Includes a roulette-style recommendation feature for choosing what to watch next.
-- Generates shareable progress cards.
+Antigravity completed the first large-scale collection and cleanup pass. This was not only a proposal or research note; it produced concrete source files for later review.
 
-## Data Notes
+Confirmed work includes:
 
-The current dataset is substantial enough for demo use, with 300+ film entries already collected. However, it should not yet be treated as a final reference database.
+- Collected raw English winner data for the four award families, around 402 raw records before cleanup.
+- Checked festival distribution across Oscar, Cannes, Venice, and Berlin.
+- Handled complex early-award cases, including Cannes 1939 / 1946 tied winners, Venice Mussolini Cup records, Venice 1946-1949 early top-prize records, and early Berlin winners.
+- Tested Wikidata API access, sitelinks, claims, and `zh`, `zh-tw`, `zh-hk`, and `zh-cn` labels.
+- Produced three core outputs: `cinephile_awards_source_table.csv`, `early_title_verification_needed.csv`, and `DATA_GAPS_REPORT.md`.
 
-The long-term direction is to keep the frontend static, but generate `data.js` from a reviewed source table instead of hand-editing it.
+## Intake Status
 
-Potential future fields:
+- Source table rows: 378
+- Early title verification rows: 96
+- Confirmed title rows reported by Antigravity: 238
+- `needs_source` rows reported by Antigravity: 30
+- `pending` rows reported by Antigravity: 110
 
-- `award`
-- `award_year`
-- `original_title`
-- `english_title`
-- `director`
-- `country`
-- `source_url`
-- `tw_title_candidate`
-- `hk_title_candidate`
-- `cn_title_candidate`
-- `confirmed_tw_title`
-- `alt_titles`
-- `review_status`
-- `notes`
+## Custody Notes
 
-Chinese title handling should stay conservative. Early films may have multiple Traditional Chinese titles, festival titles, Hong Kong titles, China titles, restored-release titles, or streaming-platform titles.
+These files are preserved as source material only.
 
-The site should collect candidates first and only mark a Taiwanese title as confirmed after review.
+Do not directly overwrite `data.js` or `data-parts/` from these files. The current site loader still expects 402 movie records. Antigravity's table is a cleaned source layer that filters and reframes parts of the raw 402-record scrape, especially Venice lifetime-achievement and early-award records.
 
-## Title Verification Plan
+The next step is review, not publication:
 
-The next data step is to create a title verification checklist covering:
-
-- Taiwan title candidate
-- Hong Kong title candidate
-- China title candidate
-- original title
-- English title
-- award / festival source
-- year
-- source URL
-- review status
-- notes
-
-The goal is not to force one universal Chinese title. The goal is to preserve title variants, identify Taiwan-appropriate display titles, and avoid overwriting culturally specific release histories.
-
-## 48-Hour Rule
-
-The original V0 rule was to observe community response before expanding the data work.
-
-Possible signals to watch:
-
-- People ask for a fuller list.
-- People correct titles or years.
-- People discuss Taiwanese translations.
-- People share their progress cards.
-- The moderator wants to keep or pin the project.
-
-Since the project now has 300+ film entries, the next constraint is no longer whether a fuller list exists. The constraint is review quality: title verification, source consistency, and conservative handling of regional Chinese names.
-
-## Deployment
-
-This project is a static frontend and can be deployed to:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-- any static hosting service
-
-Current deployment:
-
-```text
-https://crystal32378.github.io/cinephile-radar/
-```
-
-## Project Status
-
-Prototype / static web toy with a substantial draft film dataset and an active title-verification plan.
+1. Compare this source table against the current `data-parts` dataset.
+2. Validate early Traditional Chinese title candidates.
+3. Resolve award-scope differences before generating new public data parts.
+4. Keep disputed or low-confidence titles in the verification queue.
