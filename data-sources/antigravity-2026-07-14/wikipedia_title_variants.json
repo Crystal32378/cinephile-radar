@@ -1,0 +1,1206 @@
+{
+  "oscar_1927_Wings": {
+    "festival": "oscar",
+    "year": "1927",
+    "english_title": "Wings",
+    "existing_candidate": "飛機大戰「翼」",
+    "zh_page": "铁翼雄风",
+    "qid": "Q272036",
+    "variants": {
+      "zh-tw": "鐵翼雄風",
+      "zh-hk": "飛機大戰「翼」",
+      "zh-cn": "翼 (电影)"
+    }
+  },
+  "oscar_1928_The Broadway Melody": {
+    "festival": "oscar",
+    "year": "1928",
+    "english_title": "The Broadway Melody",
+    "existing_candidate": "百老滙之歌",
+    "zh_page": "红伶秘史",
+    "qid": "Q463620",
+    "variants": {
+      "zh-tw": "百老匯之歌",
+      "zh-hk": "百老滙之歌",
+      "zh-cn": "红伶秘史"
+    }
+  },
+  "oscar_1930_Cimarron": {
+    "festival": "oscar",
+    "year": "1930",
+    "english_title": "Cimarron",
+    "existing_candidate": "殖邊壯史",
+    "zh_page": "壮志千秋",
+    "qid": "Q251997",
+    "variants": {
+      "zh-tw": "壯志千秋",
+      "zh-hk": "殖邊壯史",
+      "zh-cn": "壮志千秋"
+    }
+  },
+  "oscar_1931_Grand Hotel": {
+    "festival": "oscar",
+    "year": "1931",
+    "english_title": "Grand Hotel",
+    "existing_candidate": "逆旅奇觀",
+    "zh_page": "大饭店",
+    "qid": "Q246656",
+    "variants": {
+      "zh-tw": "大飯店",
+      "zh-hk": "逆旅奇觀",
+      "zh-cn": "大饭店"
+    }
+  },
+  "oscar_1932_Cavalcade": {
+    "festival": "oscar",
+    "year": "1932",
+    "english_title": "Cavalcade",
+    "existing_candidate": "百戰忠魂",
+    "zh_page": "气壮山河",
+    "qid": "Q753107",
+    "variants": {
+      "zh-tw": "氣壯山河",
+      "zh-hk": "百戰忠魂",
+      "zh-cn": "气壮山河"
+    }
+  },
+  "oscar_1935_Mutiny on the Bounty": {
+    "festival": "oscar",
+    "year": "1935",
+    "english_title": "Mutiny on the Bounty",
+    "existing_candidate": "叛艦喋血記",
+    "zh_page": "叛艦喋血記 (1935年電影)",
+    "qid": "Q329709",
+    "variants": {
+      "zh-tw": "叛艦喋血記 (1935年電影)",
+      "zh-hk": "叛艦喋血記 (1935年電影)",
+      "zh-cn": "叛舰喋血记 (1935年电影)"
+    }
+  },
+  "oscar_1936_The Great Ziegfeld": {
+    "festival": "oscar",
+    "year": "1936",
+    "english_title": "The Great Ziegfeld",
+    "existing_candidate": "歌舞大王昔飛路",
+    "zh_page": "歌舞大王齊格飛",
+    "qid": "Q470218",
+    "variants": {
+      "zh-tw": "歌舞大王齊格飛",
+      "zh-hk": "歌舞大王昔飛路",
+      "zh-cn": "歌舞大王齐格飞"
+    }
+  },
+  "oscar_1937_The Life of Emile Zola": {
+    "festival": "oscar",
+    "year": "1937",
+    "english_title": "The Life of Emile Zola",
+    "existing_candidate": "左拉光榮傳",
+    "zh_page": "左拉传",
+    "qid": "Q738552",
+    "variants": {
+      "zh-tw": "左拉傳",
+      "zh-hk": "左拉光榮傳",
+      "zh-cn": "左拉传"
+    }
+  },
+  "oscar_1938_You Can't Take It with You": {
+    "festival": "oscar",
+    "year": "1938",
+    "english_title": "You Can't Take It with You",
+    "existing_candidate": "浮生若夢",
+    "zh_page": "浮生若夢",
+    "qid": "Q637835",
+    "variants": {
+      "zh-tw": "浮生若夢",
+      "zh-hk": "浮生若夢",
+      "zh-cn": "浮生若梦"
+    }
+  },
+  "oscar_1940_Rebecca": {
+    "festival": "oscar",
+    "year": "1940",
+    "english_title": "Rebecca",
+    "existing_candidate": "蝴蝶梦",
+    "zh_page": "蝴蝶梦 (电影)",
+    "qid": "Q204212",
+    "variants": {
+      "zh-tw": "蝴蝶夢 (電影)",
+      "zh-hk": "蝴蝶夢 (電影)",
+      "zh-cn": "蝴蝶梦 (电影)"
+    }
+  },
+  "oscar_1941_How Green Was My Valley": {
+    "festival": "oscar",
+    "year": "1941",
+    "english_title": "How Green Was My Valley",
+    "existing_candidate": "父慈子孝",
+    "zh_page": "翡翠谷 (電影)",
+    "qid": "Q244448",
+    "variants": {
+      "zh-tw": "翡翠谷 (電影)",
+      "zh-hk": "父慈子孝",
+      "zh-cn": "翡翠谷 (电影)"
+    }
+  },
+  "oscar_1942_Mrs. Miniver": {
+    "festival": "oscar",
+    "year": "1942",
+    "english_title": "Mrs. Miniver",
+    "existing_candidate": "戰雲鵑血",
+    "zh_page": "忠勇之家",
+    "qid": "Q478371",
+    "variants": {
+      "zh-tw": "忠勇之家",
+      "zh-hk": "戰雲鵑血",
+      "zh-cn": "忠勇之家"
+    }
+  },
+  "oscar_1944_Going My Way": {
+    "festival": "oscar",
+    "year": "1944",
+    "english_title": "Going My Way",
+    "existing_candidate": "与我同行",
+    "zh_page": "与我同行",
+    "qid": "Q468877",
+    "variants": {
+      "zh-tw": "與我同行",
+      "zh-hk": "與我同行",
+      "zh-cn": "与我同行"
+    }
+  },
+  "oscar_1947_Gentleman's Agreement": {
+    "festival": "oscar",
+    "year": "1947",
+    "english_title": "Gentleman's Agreement",
+    "existing_candidate": "君子協定",
+    "zh_page": "君子協定 (電影)",
+    "qid": "Q898840",
+    "variants": {
+      "zh-tw": "君子協定 (電影)",
+      "zh-hk": "君子協定 (電影)",
+      "zh-cn": "君子协定 (电影)"
+    }
+  },
+  "oscar_1949_All the King's Men": {
+    "festival": "oscar",
+    "year": "1949",
+    "english_title": "All the King's Men",
+    "existing_candidate": "當代奸雄",
+    "zh_page": "当代奸雄",
+    "qid": "Q817159",
+    "variants": {
+      "zh-tw": "當代奸雄",
+      "zh-hk": "當代奸雄",
+      "zh-cn": "当代奸雄"
+    }
+  },
+  "oscar_1952_The Greatest Show on Earth": {
+    "festival": "oscar",
+    "year": "1952",
+    "english_title": "The Greatest Show on Earth",
+    "existing_candidate": "戲王之王",
+    "zh_page": "戲中之王",
+    "qid": "Q641061",
+    "variants": {
+      "zh-tw": "戲中之王",
+      "zh-hk": "戲王之王 (1952年電影)",
+      "zh-cn": "戏中之王"
+    }
+  },
+  "cannes_1946_Brief Encounter": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "Brief Encounter",
+    "existing_candidate": "偷情記",
+    "zh_page": "偷情記",
+    "qid": "Q814296",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_The Last Chance": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "The Last Chance",
+    "existing_candidate": "最後的機會",
+    "zh_page": "最後的機會",
+    "qid": "Q671940",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_María Candelaria": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "María Candelaria",
+    "existing_candidate": "瑪利亞·康德萊麗亞",
+    "zh_page": "瑪利亞·康德萊麗亞",
+    "qid": "Q2578176",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_Men Without Wings": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "Men Without Wings",
+    "existing_candidate": "沒有翅膀的男人",
+    "zh_page": "沒有翅膀的男人",
+    "qid": "Q2280650",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_Neecha Nagar": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "Neecha Nagar",
+    "existing_candidate": "下層都市",
+    "zh_page": "下層都市",
+    "qid": "Q427915",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_Pastoral Symphony": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "Pastoral Symphony",
+    "existing_candidate": "田園交響曲",
+    "zh_page": "田園交響曲",
+    "qid": "Q2553634",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_The Red Meadows": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "The Red Meadows",
+    "existing_candidate": "大地將變成紅色",
+    "zh_page": "大地將變成紅色",
+    "qid": "Q1757020",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1946_Torment": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "Torment",
+    "existing_candidate": "折磨",
+    "zh_page": "折磨",
+    "qid": "Q2290980",
+    "variants": {
+      "zh-tw": "折磨",
+      "zh-hk": "折磨",
+      "zh-cn": "折磨"
+    }
+  },
+  "cannes_1946_The Turning Point": {
+    "festival": "cannes",
+    "year": "1946",
+    "english_title": "The Turning Point",
+    "existing_candidate": "轉折點（1945年電影）",
+    "zh_page": "轉折點（1945年電影）",
+    "qid": "Q945852",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1947_Antoine and Antoinette (Best Psychological & Love Film)": {
+    "festival": "cannes",
+    "year": "1947",
+    "english_title": "Antoine and Antoinette (Best Psychological & Love Film)",
+    "existing_candidate": "安东与安东妮",
+    "zh_page": "安东与安东妮",
+    "qid": "Q2279661",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1947_Crossfire (Best Social Film)": {
+    "festival": "cannes",
+    "year": "1947",
+    "english_title": "Crossfire (Best Social Film)",
+    "existing_candidate": "雙雄鬥智",
+    "zh_page": "雙雄鬥智",
+    "qid": "Q632718",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1947_Dumbo (Best Animation Design)": {
+    "festival": "cannes",
+    "year": "1947",
+    "english_title": "Dumbo (Best Animation Design)",
+    "existing_candidate": "小飞象",
+    "zh_page": "小飞象",
+    "qid": "Q40895",
+    "variants": {
+      "zh-tw": "小飛象",
+      "zh-hk": "小飛象",
+      "zh-cn": "小飞象"
+    }
+  },
+  "cannes_1947_The Damned (Best Adventure & Crime Film)": {
+    "festival": "cannes",
+    "year": "1947",
+    "english_title": "The Damned (Best Adventure & Crime Film)",
+    "existing_candidate": "詛咒合唱團",
+    "zh_page": "詛咒合唱團",
+    "qid": "Q3233764",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1947_Ziegfeld Follies (Best Musical Comedy)": {
+    "festival": "cannes",
+    "year": "1947",
+    "english_title": "Ziegfeld Follies (Best Musical Comedy)",
+    "existing_candidate": "昔飛路歌舞團",
+    "zh_page": "昔飛路歌舞團",
+    "qid": "Q2186004",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1951_Miss Julie": {
+    "festival": "cannes",
+    "year": "1951",
+    "english_title": "Miss Julie",
+    "existing_candidate": "茱莉小姐",
+    "zh_page": "茱莉小姐",
+    "qid": "Q1471325",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1952_Othello": {
+    "festival": "cannes",
+    "year": "1952",
+    "english_title": "Othello",
+    "existing_candidate": "黑將軍奧瑟羅",
+    "zh_page": "黑將軍奧瑟羅",
+    "qid": "Q2704454",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1952_Two Cents Worth of Hope": {
+    "festival": "cannes",
+    "year": "1952",
+    "english_title": "Two Cents Worth of Hope",
+    "existing_candidate": "兩分錢的希望",
+    "zh_page": "兩分錢的希望",
+    "qid": "Q2459872",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1954_Gate of Hell": {
+    "festival": "cannes",
+    "year": "1954",
+    "english_title": "Gate of Hell",
+    "existing_candidate": "地獄門",
+    "zh_page": "地獄門",
+    "qid": "Q862708",
+    "variants": {
+      "zh-tw": "地獄門",
+      "zh-hk": "地獄門",
+      "zh-cn": "地狱门"
+    }
+  },
+  "cannes_1957_Friendly Persuasion": {
+    "festival": "cannes",
+    "year": "1957",
+    "english_title": "Friendly Persuasion",
+    "existing_candidate": "四海一家",
+    "zh_page": "四海一家",
+    "qid": "Q1621402",
+    "variants": {
+      "zh-tw": "四海一家",
+      "zh-hk": "四海一家",
+      "zh-cn": "四海一家"
+    }
+  },
+  "cannes_1958_The Cranes Are Flying": {
+    "festival": "cannes",
+    "year": "1958",
+    "english_title": "The Cranes Are Flying",
+    "existing_candidate": "仙鶴飛翔",
+    "zh_page": "雁南飞",
+    "qid": "Q714524",
+    "variants": {
+      "zh-tw": "雁南飛",
+      "zh-hk": "仙鶴飛翔",
+      "zh-cn": "雁南飞"
+    }
+  },
+  "cannes_1959_Black Orpheus §": {
+    "festival": "cannes",
+    "year": "1959",
+    "english_title": "Black Orpheus §",
+    "existing_candidate": "人生長恨水長東",
+    "zh_page": "人生長恨水長東",
+    "qid": "Q538266",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1960_La dolce vita §": {
+    "festival": "cannes",
+    "year": "1960",
+    "english_title": "La dolce vita §",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "cannes_1961_The Long Absence §": {
+    "festival": "cannes",
+    "year": "1961",
+    "english_title": "The Long Absence §",
+    "existing_candidate": "長時間缺席",
+    "zh_page": "長時間缺席",
+    "qid": "Q2661411",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1962_O Pagador de Promessas §": {
+    "festival": "cannes",
+    "year": "1962",
+    "english_title": "O Pagador de Promessas §",
+    "existing_candidate": "诺言 (1962年电影)",
+    "zh_page": "诺言 (1962年电影)",
+    "qid": "Q1482269",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1964_The Umbrellas of Cherbourg": {
+    "festival": "cannes",
+    "year": "1964",
+    "english_title": "The Umbrellas of Cherbourg",
+    "existing_candidate": "愛果情花",
+    "zh_page": "秋水伊人 (電影)",
+    "qid": "Q163868",
+    "variants": {
+      "zh-tw": "秋水伊人",
+      "zh-hk": "秋水伊人",
+      "zh-cn": "瑟堡的雨伞"
+    }
+  },
+  "cannes_1965_The Knack ...and How to Get It": {
+    "festival": "cannes",
+    "year": "1965",
+    "english_title": "The Knack ...and How to Get It",
+    "existing_candidate": "色情男女",
+    "zh_page": "色情男女",
+    "qid": "Q1198726",
+    "variants": {
+      "zh-tw": "色情男女",
+      "zh-hk": "色情男女",
+      "zh-cn": "色情男女"
+    }
+  },
+  "cannes_1966_The Birds, the Bees and the Italians": {
+    "festival": "cannes",
+    "year": "1966",
+    "english_title": "The Birds, the Bees and the Italians",
+    "existing_candidate": "意大利慾潮",
+    "zh_page": "意大利慾潮",
+    "qid": "Q319275",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1969_If....": {
+    "festival": "cannes",
+    "year": "1969",
+    "english_title": "If....",
+    "existing_candidate": "如果…",
+    "zh_page": "如果…",
+    "qid": "Q1346745",
+    "variants": {
+      "zh-tw": "如果…",
+      "zh-hk": "如果…",
+      "zh-cn": "如果…"
+    }
+  },
+  "venice_1950_Justice Is Done": {
+    "festival": "venice",
+    "year": "1950",
+    "english_title": "Justice Is Done",
+    "existing_candidate": "伸張正義",
+    "zh_page": "伸張正義",
+    "qid": "Q2283907",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1952_Forbidden Games": {
+    "festival": "venice",
+    "year": "1952",
+    "english_title": "Forbidden Games",
+    "existing_candidate": "禁止的遊戲",
+    "zh_page": "禁忌的遊戲",
+    "qid": "Q976558",
+    "variants": {
+      "zh-tw": "禁忌的遊戲",
+      "zh-hk": "禁止的遊戲",
+      "zh-cn": "禁忌游戏"
+    }
+  },
+  "venice_1955_Ordet": {
+    "festival": "venice",
+    "year": "1955",
+    "english_title": "Ordet",
+    "existing_candidate": "太初有道",
+    "zh_page": "諾言 (電影)",
+    "qid": "Q2352630",
+    "variants": {
+      "zh-tw": "諾言 (電影)",
+      "zh-hk": "太初有道",
+      "zh-cn": "诺言 (电影)"
+    }
+  },
+  "venice_1957_Aparajito": {
+    "festival": "venice",
+    "year": "1957",
+    "english_title": "Aparajito",
+    "existing_candidate": "大河之歌",
+    "zh_page": "大河之歌",
+    "qid": "Q622382",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1958_Rickshaw Man": {
+    "festival": "venice",
+    "year": "1958",
+    "english_title": "Rickshaw Man",
+    "existing_candidate": "手車伕之戀",
+    "zh_page": "手車伕之戀",
+    "qid": "Q1060505",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1959_General Della Rovere": {
+    "festival": "venice",
+    "year": "1959",
+    "english_title": "General Della Rovere",
+    "existing_candidate": "罗维雷将军",
+    "zh_page": "罗维雷将军",
+    "qid": "Q862713",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1960_Tomorrow Is My Turn": {
+    "festival": "venice",
+    "year": "1960",
+    "english_title": "Tomorrow Is My Turn",
+    "existing_candidate": "通過萊茵河",
+    "zh_page": "通過萊茵河",
+    "qid": "Q744482",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1961_Last Year at Marienbad": {
+    "festival": "venice",
+    "year": "1961",
+    "english_title": "Last Year at Marienbad",
+    "existing_candidate": "去年在馬倫巴",
+    "zh_page": "去年在馬倫巴",
+    "qid": "Q225355",
+    "variants": {
+      "zh-tw": "去年在馬倫巴",
+      "zh-hk": "去年在馬倫巴",
+      "zh-cn": "去年在马里昂巴德"
+    }
+  },
+  "venice_1962_Family Diary": {
+    "festival": "venice",
+    "year": "1962",
+    "english_title": "Family Diary",
+    "existing_candidate": "家庭日記",
+    "zh_page": "家庭日記",
+    "qid": "Q1754854",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1963_Hands over the City": {
+    "festival": "venice",
+    "year": "1963",
+    "english_title": "Hands over the City",
+    "existing_candidate": "操縱城市的手",
+    "zh_page": "操縱城市的手",
+    "qid": "Q2253732",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1965_Sandra": {
+    "festival": "venice",
+    "year": "1965",
+    "english_title": "Sandra",
+    "existing_candidate": "北斗七星 (电影)",
+    "zh_page": "北斗七星 (电影)",
+    "qid": "Q1816145",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1966_The Battle of Algiers": {
+    "festival": "venice",
+    "year": "1966",
+    "english_title": "The Battle of Algiers",
+    "existing_candidate": "阿爾及爾之戰",
+    "zh_page": "阿爾及爾之戰",
+    "qid": "Q784812",
+    "variants": {
+      "zh-tw": "阿爾及爾之戰",
+      "zh-hk": "阿爾及爾之戰",
+      "zh-cn": "阿尔及尔之战"
+    }
+  },
+  "venice_1968_Artists Under the Big Top: Perplexed": {
+    "festival": "venice",
+    "year": "1968",
+    "english_title": "Artists Under the Big Top: Perplexed",
+    "existing_candidate": "帳棚頂上的馬戲團藝人",
+    "zh_page": "帳棚頂上的馬戲團藝人",
+    "qid": "Q573953",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1951_Four in a Jeep (Drama)": {
+    "festival": "berlin",
+    "year": "1951",
+    "english_title": "Four in a Jeep (Drama)",
+    "existing_candidate": "吉普車中的四人",
+    "zh_page": "吉普車中的四人",
+    "qid": "Q520462",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1951_Without Leaving an Address (Comedy)": {
+    "festival": "berlin",
+    "year": "1951",
+    "english_title": "Without Leaving an Address (Comedy)",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "Q1403096",
+    "variants": {}
+  },
+  "berlin_1951_In Beaver Valley (Documentary)": {
+    "festival": "berlin",
+    "year": "1951",
+    "english_title": "In Beaver Valley (Documentary)",
+    "existing_candidate": "海狸谷",
+    "zh_page": "海狸谷",
+    "qid": "Q3213438",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1951_Justice Is Done (Thriller & Adventure)": {
+    "festival": "berlin",
+    "year": "1951",
+    "english_title": "Justice Is Done (Thriller & Adventure)",
+    "existing_candidate": "伸張正義",
+    "zh_page": "伸張正義",
+    "qid": "Q2283907",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1952_One Summer of Happiness": {
+    "festival": "berlin",
+    "year": "1952",
+    "english_title": "One Summer of Happiness",
+    "existing_candidate": "天體鴛鴦",
+    "zh_page": "天體鴛鴦",
+    "qid": "Q1536123",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1954_Hobson's Choice": {
+    "festival": "berlin",
+    "year": "1954",
+    "english_title": "Hobson's Choice",
+    "existing_candidate": "女大不中留",
+    "zh_page": "女大不中留",
+    "qid": "Q1613944",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1955_Die Ratten": {
+    "festival": "berlin",
+    "year": "1955",
+    "english_title": "Die Ratten",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "Q554975",
+    "variants": {}
+  },
+  "berlin_1956_Invitation to the Dance": {
+    "festival": "berlin",
+    "year": "1956",
+    "english_title": "Invitation to the Dance",
+    "existing_candidate": "心聲幻影",
+    "zh_page": "心聲幻影",
+    "qid": "Q1308277",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1957_12 Angry Men": {
+    "festival": "berlin",
+    "year": "1957",
+    "english_title": "12 Angry Men",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "berlin_1959_Les Cousins": {
+    "festival": "berlin",
+    "year": "1959",
+    "english_title": "Les Cousins",
+    "existing_candidate": "表兄弟",
+    "zh_page": "表兄弟 (電影)",
+    "qid": "Q141557",
+    "variants": {
+      "zh-tw": "表兄弟 (電影)",
+      "zh-hk": "表兄弟 (電影)",
+      "zh-cn": "表兄弟 (电影)"
+    }
+  },
+  "berlin_1960_El Lazarillo de Tormes": {
+    "festival": "berlin",
+    "year": "1960",
+    "english_title": "El Lazarillo de Tormes",
+    "existing_candidate": "小癞子",
+    "zh_page": "小癞子 (1959年电影)",
+    "qid": "Q281677",
+    "variants": {
+      "zh-tw": "小癩子 (1959年電影)",
+      "zh-hk": "小癩子 (1959年電影)",
+      "zh-cn": "小癞子 (1959年电影)"
+    }
+  },
+  "berlin_1961_La Notte": {
+    "festival": "berlin",
+    "year": "1961",
+    "english_title": "La Notte",
+    "existing_candidate": "夜",
+    "zh_page": "夜 (電影)",
+    "qid": "Q1215047",
+    "variants": {
+      "zh-tw": "夜 (電影)",
+      "zh-hk": "夜 (電影)",
+      "zh-cn": "夜 (电影)"
+    }
+  },
+  "berlin_1963_Bushido, Samurai Saga": {
+    "festival": "berlin",
+    "year": "1963",
+    "english_title": "Bushido, Samurai Saga",
+    "existing_candidate": "武士道殘酷物語",
+    "zh_page": "武士道殘酷物語",
+    "qid": "Q1403726",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1963_To Bed or Not to Bed": {
+    "festival": "berlin",
+    "year": "1963",
+    "english_title": "To Bed or Not to Bed",
+    "existing_candidate": "恶魔",
+    "zh_page": "恶魔",
+    "qid": "Q474072",
+    "variants": {
+      "zh-tw": "惡魔",
+      "zh-hk": "惡魔",
+      "zh-cn": "恶魔"
+    }
+  },
+  "berlin_1964_Dry Summer": {
+    "festival": "berlin",
+    "year": "1964",
+    "english_title": "Dry Summer",
+    "existing_candidate": "干涸的夏天",
+    "zh_page": "干涸的夏天",
+    "qid": "Q1542380",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1966_Cul-de-Sac": {
+    "festival": "berlin",
+    "year": "1966",
+    "english_title": "Cul-de-Sac",
+    "existing_candidate": "孤島驚魂",
+    "zh_page": "孤島驚魂",
+    "qid": "Q1637787",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1967_Le Départ": {
+    "festival": "berlin",
+    "year": "1967",
+    "english_title": "Le Départ",
+    "existing_candidate": "出發",
+    "zh_page": "出發",
+    "qid": "Q1197125",
+    "variants": {
+      "zh-tw": "出發",
+      "zh-hk": "出發",
+      "zh-cn": "出发"
+    }
+  },
+  "berlin_1968_Who Saw Him Die?": {
+    "festival": "berlin",
+    "year": "1968",
+    "english_title": "Who Saw Him Die?",
+    "existing_candidate": "教師之死",
+    "zh_page": "教師之死",
+    "qid": "Q532112",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "berlin_1969_Early Works": {
+    "festival": "berlin",
+    "year": "1969",
+    "english_title": "Early Works",
+    "existing_candidate": "第一份工作",
+    "zh_page": "第一份工作",
+    "qid": "Q2026238",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "cannes_1939_Union Pacific": {
+    "festival": "cannes",
+    "year": "1939",
+    "english_title": "Union Pacific",
+    "existing_candidate": "和平联盟 (电影)",
+    "zh_page": "和平联盟 (电影)",
+    "qid": "Q1930992",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1934_Man of Aran": {
+    "festival": "venice",
+    "year": "1934",
+    "english_title": "Man of Aran",
+    "existing_candidate": "阿伦人",
+    "zh_page": "阿伦人",
+    "qid": "Q1214986",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1934_Teresa Confalonieri": {
+    "festival": "venice",
+    "year": "1934",
+    "english_title": "Teresa Confalonieri",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1935_Anna Karenina": {
+    "festival": "venice",
+    "year": "1935",
+    "english_title": "Anna Karenina",
+    "existing_candidate": "春殘夢斷",
+    "zh_page": "春殘夢斷",
+    "qid": "Q561208",
+    "variants": {
+      "zh-tw": "春殘夢斷",
+      "zh-hk": "春殘夢斷",
+      "zh-cn": "春残梦断"
+    }
+  },
+  "venice_1935_Casta Diva": {
+    "festival": "venice",
+    "year": "1935",
+    "english_title": "Casta Diva",
+    "existing_candidate": "幻影",
+    "zh_page": "幻影",
+    "qid": "Q2941333",
+    "variants": {
+      "zh-tw": "幻影",
+      "zh-hk": "幻影",
+      "zh-cn": "幻影"
+    }
+  },
+  "venice_1936_Der Kaiser von Kalifornien": {
+    "festival": "venice",
+    "year": "1936",
+    "english_title": "Der Kaiser von Kalifornien",
+    "existing_candidate": "加利福尼亚的皇帝",
+    "zh_page": "加利福尼亚的皇帝",
+    "qid": "Q481091",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1936_Lo squadrone bianco": {
+    "festival": "venice",
+    "year": "1936",
+    "english_title": "Lo squadrone bianco",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1937_Un carnet de bal": {
+    "festival": "venice",
+    "year": "1937",
+    "english_title": "Un carnet de bal",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1937_Scipione l'africano": {
+    "festival": "venice",
+    "year": "1937",
+    "english_title": "Scipione l'africano",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1938_Luciano Serra pilota": {
+    "festival": "venice",
+    "year": "1938",
+    "english_title": "Luciano Serra pilota",
+    "existing_candidate": "空军敢死队",
+    "zh_page": "空军敢死队",
+    "qid": "Q980025",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1939_Cardinal Messias": {
+    "festival": "venice",
+    "year": "1939",
+    "english_title": "Cardinal Messias",
+    "existing_candidate": "阿布纳·梅西阿斯",
+    "zh_page": "阿布纳·梅西阿斯",
+    "qid": "Q3202222",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1940_Der Postmeister": {
+    "festival": "venice",
+    "year": "1940",
+    "english_title": "Der Postmeister",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1940_L'assedio dell'Alcazar": {
+    "festival": "venice",
+    "year": "1940",
+    "english_title": "L'assedio dell'Alcazar",
+    "existing_candidate": "阿尔卡扎尔之围",
+    "zh_page": "阿尔卡扎尔之围",
+    "qid": "Q1154167",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1941_Ohm Krüger": {
+    "festival": "venice",
+    "year": "1941",
+    "english_title": "Ohm Krüger",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1941_La corona di ferro": {
+    "festival": "venice",
+    "year": "1941",
+    "english_title": "La corona di ferro",
+    "existing_candidate": "钢盔",
+    "zh_page": "钢盔",
+    "qid": "Q536657",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1942_Der große König": {
+    "festival": "venice",
+    "year": "1942",
+    "english_title": "Der große König",
+    "existing_candidate": "伟大的国王",
+    "zh_page": "伟大的国王",
+    "qid": "Q480696",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1942_Bengasi": {
+    "festival": "venice",
+    "year": "1942",
+    "english_title": "Bengasi",
+    "existing_candidate": "賓加西",
+    "zh_page": "賓加西",
+    "qid": "Q2895816",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1946_The Southerner": {
+    "festival": "venice",
+    "year": "1946",
+    "english_title": "The Southerner",
+    "existing_candidate": "大地之光",
+    "zh_page": "大地之光",
+    "qid": "Q1195531",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  },
+  "venice_1947_Siréna": {
+    "festival": "venice",
+    "year": "1947",
+    "english_title": "Siréna",
+    "existing_candidate": "",
+    "zh_page": "",
+    "qid": "",
+    "variants": {}
+  },
+  "venice_1949_Manon": {
+    "festival": "venice",
+    "year": "1949",
+    "english_title": "Manon",
+    "existing_candidate": "情婦瑪儂",
+    "zh_page": "情婦瑪儂",
+    "qid": "Q937385",
+    "variants": {
+      "zh-tw": "",
+      "zh-hk": "",
+      "zh-cn": ""
+    }
+  }
+}
